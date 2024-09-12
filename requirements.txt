@@ -1,0 +1,25 @@
+aerich
+aiohttp==3.9.3
+async_lru
+asyncpg
+curl_cffi
+dateparser
+discord.py @ git+https://github.com/Rapptz/discord.py
+fastapi
+humanize
+jishaku
+parsedatetime
+passlib[bcrypt]
+psutil
+pygit2==1.14.1
+PyJWT
+python-dateutil
+python-environ
+PyYAML==6.0.1
+sentry-sdk
+sentry-sdk[fastapi]
+siegeapi
+slowapi
+snowflake-id
+tortoise-orm
+zuid

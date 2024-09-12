@@ -1,0 +1,9 @@
+aiohttp
+discord.py
+jishaku
+parsedatetime
+python-dateutil
+python-environ
+PyYAML
+sentry-sdk
+typing_extensions

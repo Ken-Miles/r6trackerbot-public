@@ -4,6 +4,7 @@
 .vscode/
 
 # ignore testing files (files starting w/ an _) but not __init__
+_*.html
 _*.py
 !__init__.py
 dbtesting.py
@@ -12,7 +13,6 @@ selfbot.py
 wikidata.py
 custom_constants.py
 data visualization/
-pyproject.toml
 
 # ignore mac garbage
 **/.DS_Store
@@ -27,35 +27,15 @@ Python-3.10.0/
 *.txt
 !requirements.txt
 *.log
-*.log.1
-*.log.2
-*.log.3
-*.log.4
-*.log.5
 *.yml
 *.yaml
-*.json
-
-db.py
-db_beta.py
 
 # ignore DB files
 *.db
-*.db-shm
-*.db-wal
-
 *.sql
+*.sqlite3
 *.sqlite-shm
 *.sqlite-wal
 
-*.sqlite3
-*.sqlite3-shm
-*.sqlite3-wal
-
-*.csv
-
 # other
 ssh.config
-images/
-creds/
-testing/
